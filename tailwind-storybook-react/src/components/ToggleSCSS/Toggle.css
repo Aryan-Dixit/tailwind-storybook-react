@@ -1,0 +1,24 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.scss-container {
+  display: flex;
+  gap: 1px;
+}
+
+.scss-button-inactive {
+  background-color: #1e40af;
+  padding-block: 8px;
+  padding-inline: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.scss-button-active {
+  background-color: #64748b;
+  padding-block: 8px;
+  padding-inline: 16px;
+  font-weight: bold;
+  color: white;
+}/*# sourceMappingURL=Toggle.css.map */

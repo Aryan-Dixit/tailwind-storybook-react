@@ -1,0 +1,73 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.stepper-root.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-root {
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.step-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.step-icon-container {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  color: gray;
+  position: relative;
+}
+
+.step-icon {
+  font-size: 0.75rem;
+}
+.step-icon.completed {
+  color: green;
+}
+
+.step-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.step-title {
+  font-weight: bold;
+  position: relative;
+}
+
+.step-title::after {
+  content: "";
+  display: inline-block;
+  flex: 1;
+  border-bottom: 1px solid gray;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.step-description {
+  font-size: 0.75rem;
+  color: #666;
+}/*# sourceMappingURL=Stepper.css.map */
